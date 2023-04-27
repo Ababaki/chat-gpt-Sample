@@ -22,7 +22,7 @@ app.post('/api/chat', async (req, res) => {
           max_tokens: 50,
           n: 1,
           stop: ["User", "Chatbot"],
-          temperature: 0.3,
+          temperature: 0.1,
           top_p: 1,
         },
         {
